@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Kalkulator walut"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:gravity="right"
+            android:text="Dolary" />
+
+        <EditText
+            android:id="@+id/dolary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Wprowadź kwotę w dolarach"
+            android:inputType="numberDecimal" />
+
+        <requestFocus />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:gravity="right"
+            android:text="Złotówki" />
+
+        <EditText
+            android:id="@+id/zlotowki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:clickable="true"
+            android:editable="false"
+            android:hint="Tutaj będzie kwota w złotówkach"
+            android:inputType="none"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:gravity="right"
+            android:text="Franki" />
+
+        <EditText
+            android:id="@+id/franki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:editable="false"
+            android:hint="Tutaj będzie kwota we frankach"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/konwersja"
+        android:layout_width="411dp"
+        android:layout_height="109dp"
+        android:background="@android:color/holo_green_light"
+        android:backgroundTint="#2DFA00"
+        android:baselineAligned="false"
+        android:text="Przelicz"
+        app:icon="@android:drawable/ic_menu_send"
+        app:iconTint="#00FF0D"
+        app:rippleColor="#6CFF03" />
+
+    <Button
+        android:id="@+id/wyczysc"
+        android:layout_width="411dp"
+        android:layout_height="120dp"
+        android:backgroundTint="#32FF04"
+        android:text="Wyczyść"
+        app:icon="@android:drawable/ic_delete" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Rafał Wiktor"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aplikacja_wiele_okien</string>
+    <string name="Telefon">Lista Kontaktów</string>
+    <string name="SMS">Wysłanie wiadomości SMS</string>
+</resources>
